@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Funpage lišek</title>
+    <link rel="shortcut icon" href="images/logoTwo.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <script type="text/javascript" src="js/all.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: #ffff">
+        <a href="index.html" style="padding-right: -1%"><img class="logo" src="images/logoTwo.jpg" alt=""></a>
+        <div class="ms-auto">
+        <button class="navbar-toggler collapsed ms-auto orange" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+            <span><i class="fa-solid fa-bars orange"></i></span>
+        </button></div>
+        <div class="navbar-collapse collapse" id="navbarToggler">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navigace">
+            <li class="nav-item"><a class="nav-link nav-collor" href="index.html">Domů</a></li>
+            <li class="nav-item"><a class="nav-link nav-collor" href="abaut.html">O stránce</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle nav-collor" href="#" data-bs-toggle="dropdown">Liščí úlovky</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Agallery.html">Polární liška</a></li>
+                    <li><a class="dropdown-item" href="Rgallery.html">Obecná liška</a></li>
+                    <li><a class="dropdown-item" href="Bgallery.html">Černá liška</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link nav-collor" href="types.html">O liškách</a></li>
+            <li class="nav-item"><a class="nav-link nav-collor" href="pet.html">Chov</a></li>
+          </ul>
+          <form class="logForm">
+            <div class="col-auto" style="padding: 0.3%">
+                <input type="text" class="form-control" placeholder="Jméno">
+            </div>
+            <div class="col-auto" style="padding: 0.3%">
+                <input type="password" class="form-control" placeholder="Heslo">
+            </div>
+            <div class="col-auto" style="padding: 0.3%; text-align: right">
+                <button type="submit" class="btn btn-outline-warning">Přihlásit se</button>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+      <main class="background">
+          <div class="left-form">
+              <div class="abautPage white">
+                  <h1 class="white">Přihlášení</h1>
+                  <form class="row g-1">
+                        <label for="inputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail1">
+                      <label for="inputPassword1" class="form-label">Heslo</label>
+                      <input type="password" class="form-control" id="inputPassword1">
+                      <div class="form-check white">
+                          <input class="form-check-input" type="checkbox" id="gridCheck1">
+                          <label class="form-check-label" for="gridCheck1">
+                            Pamatuj si mě
+                          </label>
+                        </div>
+                      <div class="col-auto">
+                          <button type="submit" class="btn btn-outline-light">Přihlásit se</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+              <div class="abautPage white">
+                  <h1 class="white">Registrace</h1>
+                  <form class="row g-1">
+                      <div class="odskoceni">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                            <label for="inputPassword4" class="form-label">Heslo</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          <label for="inputState" class="form-label">Stát</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Stát</option>
+                            <option>Česká Republika</option>
+                            <option>Slovensko</option>
+                          </select>
+                        </div>
+                        <div class="odskoceni">
+                          <label for="customRange" class="form-label">Věk</label>
+                          <input type="range" class="form-range" min="0" max="100" step="1" id="customRange">
+                        </div>
+                        <div class="odskoceni">
+                          <label for="pohlavi">Pohlaví</label>
+                          <div class="form-check" id="pohlavi">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Žena
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              Muž
+                            </label>
+                          </div>
+                        </div>
+                        <div class="odskoceni">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Pamatuj is mě
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck2">
+                            <label class="form-check-label" for="gridCheck2">
+                              Chci dostávat upozornění o novinkách
+                            </label>
+                          </div>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck3">
+                              <label class="form-check-label" for="gridCheck3">
+                                  Souhlasím se smluvními podmínkami
+                              </label>
+                          </div>
+                        </div>
+                        <div class="col-auto">
+                          <button type="submit" class="btn btn-outline-light">Registrovat se</button>
+                      </div>
+                    </form>
+              </div>
+          <div class="clearfix"></div>
+      </main>
+      <footer class="footerBody">
+        <p class="bg-light footerText">&copy; 2021 Ondřej Dudák všechna práva vyhrazena. Všechny ostatní ochranné známky jsou majetkem příslušného vlastníka.</p>
+          <div class="icons"><a href="form.html"><i class="fas fa-sign-in-alt icons"></i></a>
+          <a href="form.html"><i class="far fa-registered icons"></i></a>
+          <a href="author.html"><i class="far fa-address-card icons"></i></a></div>
+      </footer>
+  </body>
+</html>

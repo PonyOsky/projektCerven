@@ -1,0 +1,132 @@
+@media only screen and (max-width: 991px){
+.logForm{
+    display: block; margin: 0 1%}
+.navigace{
+    margin: 0 1%; text-align: center}
+.background{
+    background-color: #fdb333}
+.logo{
+    width: 50px; height: 50px; margin: 0px; padding-left: 10px}
+.orange{
+    color: #fdb333}
+.white{
+    color: white}
+.clearfix:after {
+    display: table; clear: both}
+.footerBody{
+    padding-bottom: 3%}
+.footerText{
+    text-align: center; padding-top: 3%}
+.icons{
+    color: black; text-align: center}
+.nav-collor{
+    color: grey}
+.nav-collor:hover{
+    color: orange}
+.indexHone{
+    color: #fff; text-align: center; padding-top: 5%}
+.indexCar{
+    width: 80%; height: 30%; margin: auto; padding: 5% 0%}
+.carouselPhotos{
+    height: 100%; margin: auto}
+.indexText{
+    color: white; padding: 2% 10%; font-size: 25px}
+.abautPage{
+    padding: 5%}
+.sbdiv{
+    padding: 5% 10%}
+.scrollBar{
+    height: 500px; margin: auto; background-color: white; border-radius: 5px; padding: 2%}
+.authorPage{
+    padding: 5% 5% 130% 5%}
+.iframe-container{
+    position: relative; width: 100%; padding-bottom: 56.25%; height: 0}
+.iframe-container iframe{
+    position: absolute; top:0; left: 0; width: 100%; height: 100%; padding: 0% 10% 5% 10%}
+.vidIndex iframe{
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0% 10% 6.25%}
+.iframe-index iframe{
+    position: absolute; top:0; left: 0; width: 100%; height: 100%; padding: 0% 10% 5% 20%}
+.headingType{
+    padding-top: 3%; text-align: center}
+.obrazekKarty{
+    width: 100%; height: 60%}
+.galeryPhotos{
+    padding: 1% 1%; height: 300px; width: 450px}
+.AgalHone{
+    color: #fff; text-align: center; padding: 5% 0%}
+.odskoceni{
+    padding-bottom: 2%}
+.obrazek{
+    width: 40%; padding: 5%; border-radius: 50px; margin: 5% 30%}
+.karty{
+    height: 850px; margin-bottom: 6%}
+.videoIn{
+    height: 70%; width: 70%; margin: 0 15% 5%}
+}
+@media only screen and (min-width: 992px){
+.background{
+    background-color: #fdb333}
+.logo{
+    width: 50px; height: 50px; margin: 0px; padding-left: 10px}
+.orange{
+    color: #fdb333}
+.white{
+    color: white}
+.clearfix:after {
+    display: table; clear: both}
+.footerBody{
+    padding-bottom: 3%}
+.footerText{
+    text-align: center; padding-top: 3%}
+.icons{
+    color: black; text-align: center}
+.nav-collor{
+    color: grey}
+.nav-collor:hover{
+    color: orange}
+.logForm{
+    display: flex; margin: 0 2%;}
+.indexHone{
+    color: #fff; text-align: center; padding-top: 5%}
+.indexCar{
+    width: 60%; height: 20%; margin: auto; padding: 5% 0%}
+.carouselPhotos{
+    height: 100%; margin: auto}
+.indexText{
+    color: white; padding: 2% 20%; font-size: 25px}
+.AgalHone{
+    color: #fff; text-align: center; padding: 5% 0%}
+.galeryPhotos{
+    padding: 1% 1%; height: 300px; width: 450px}
+.iframe-container{
+    position: relative; width: 100%; padding-bottom: 56.25%; height: 0}
+.iframe-container iframe{
+    position: absolute; top:0; left: 0; width: 100%; height: 100%; padding: 0% 10% 5% 10%}
+.vidIndex iframe{
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 0% 20% 6.25%}
+.iframe-index iframe{
+    position: absolute; top:0; left: 0; width: 100%; height: 100%; padding: 0% 20% 5% 20%}
+.abautPage{
+    padding: 5%}
+.odskoceni{
+    padding-bottom: 2%}
+.karty{
+    height: 800px}
+.obrazekKarty{
+    width: 100%; height: 50%}
+.obrazek{
+    width: 40%; padding: 5%; border-radius: 50px; margin: 5% 30%}
+.authorPage{
+    padding: 5% 5% 20% 5%}
+.headingType{
+    padding-top: 3%; text-align: center}
+.sbdiv{
+    padding: 5% 20%}
+.left-form{
+    width: 50%; float: left; padding: 5%}
+.scrollBar{
+    height: 500px; margin: auto; background-color: white; border-radius: 5px; padding: 2%}
+.videoIn{
+    height: 70%; width: 70%; margin: 0 15% 5%}
+}

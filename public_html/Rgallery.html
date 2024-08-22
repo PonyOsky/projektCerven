@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Funpage lišek</title>
+        <link rel="shortcut icon" href="images/logoTwo.jpg" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="css.css">
+        <script src="jquery.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/all.min.css">
+        <script type="text/javascript" src="js/all.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg" style="background-color: #ffff">
+                <a href="index.html" style="padding-right: -1%"><img class="logo" src="images/logoTwo.jpg" alt=""></a>
+                <div class="ms-auto">
+                <button class="navbar-toggler collapsed ms-auto orange" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                    <span><i class="fa-solid fa-bars orange"></i></span>
+                </button></div>
+                <div class="navbar-collapse collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navigace">
+                    <li class="nav-item"><a class="nav-link nav-collor" href="index.html">Domů</a></li>
+                    <li class="nav-item"><a class="nav-link nav-collor" href="abaut.html">O stránce</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle nav-collor" href="#" data-bs-toggle="dropdown">Liščí úlovky</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Agallery.html">Polární liška</a></li>
+                            <li><a class="dropdown-item" href="Rgallery.html">Obecná liška</a></li>
+                            <li><a class="dropdown-item" href="Bgallery.html">Černá liška</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link nav-collor" href="types.html">O liškách</a></li>
+                    <li class="nav-item"><a class="nav-link nav-collor" href="pet.html">Chov</a></li>
+                </ul>
+                <form class="logForm">
+                    <div class="col-auto" style="padding: 0.3%">
+                        <input type="text" class="form-control" placeholder="Jméno">
+                    </div>
+                    <div class="col-auto" style="padding: 0.3%">
+                        <input type="password" class="form-control" placeholder="Heslo">
+                    </div>
+                    <div class="col-auto" style="padding: 0.3%; text-align: right">
+                        <button type="submit" class="btn btn-outline-warning">Přihlásit se</button>
+                    </div>
+                </form>
+                </div>
+            </nav>
+        </header>
+        <main class="background">
+            <h1 class="AgalHone">Fotky obecných lišek</h1>
+            <div class="container-fluid row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+                <img class="galeryPhotos img-fluid float-start" src="images/RgalOne.jpg" alt="">
+                <img class="galeryPhotos img-fluid float-start" src="images/RgalTwo.jpg" alt="">
+                <img class="galeryPhotos img-fluid float-start" src="images/RgalThree.jpg" alt="">
+                <img class="galeryPhotos img-fluid float-start" src="images/RgalFour.jpg" alt="">
+                <img class="galeryPhotos img-fluid float-start" src="images/RgalFive.jpg" alt="">
+                <img class="galeryPhotos img-fluid float-start" src="images/RgalSix.png" alt="">
+            </div>
+            <div class="clearfix"></div>
+            <h1 class="AgalHone">Video</h1>
+            <video class="videoIn" controls>
+                <source src="videos/production ID_5055604.mp4" type="video/mp4">
+            </video>
+        </main>
+        <footer class="footerBody">
+            <p class="bg-light footerText">&copy; 2021 Ondřej Dudák všechna práva vyhrazena. Všechny ostatní ochranné známky jsou majetkem příslušného vlastníka.</p>
+            <div class="icons"><a href="form.html"><i class="fas fa-sign-in-alt icons"></i></a>
+            <a href="form.html"><i class="far fa-registered icons"></i></a>
+            <a href="author.html"><i class="far fa-address-card icons"></i></a></div>
+        </footer>
+    </body>
+</html>
